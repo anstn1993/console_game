@@ -1,7 +1,7 @@
 # console_game
 java console game
 
-[게임 시연 영상](https://www.youtube.com/watch?v=-J0X0Fi-zgE)
+[게임 시연 영상](https://www.youtube.com/watch?v=6To_Xyrd93I)
 
 ## 제작 의도
 
