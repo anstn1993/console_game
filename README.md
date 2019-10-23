@@ -1,4 +1,4 @@
-### console_game
+# console_game
 java console game
 
 [게임 시연 영상](https://www.youtube.com/watch?v=-J0X0Fi-zgE)
@@ -17,7 +17,7 @@ java console game
 
 각 스테이지의 보스와 싸우기 위해서는 특정 수준의 레벨이 되어야 합니다. 레벨을 올리기 위해서 몬스터와 싸우면 됩니다.
  
-# 주요 기능
+## 주요 기능
 
   1. 케릭터 선택
   
