@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284a7cdc-7c40-4133-b411-7fa0ee96a811" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="284a7cdc-7c40-4133-b411-7fa0ee96a811" name="Default Changelist" comment="version 2.0: refactor code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/BossStageConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/CharacterInfoConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/HuntingGroundConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/InventoryConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consolegame/console/ShopConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/hp포션.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/mp포션.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/공격효과스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/레벨업스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/로딩스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/메인.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/모험가.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/몬스터.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/무기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/방어구.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/버프효과스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/보스.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/사운드스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/상점.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/스킬.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/스테이지.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/아이템.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/오프닝스레드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/케릭터.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/consolegame/특수무기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/hp포션.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/HpPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/mp포션.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/MpPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/공격효과스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/AttackEffectThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/레벨업스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/LevelUpThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/로딩스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/LoadingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/메인.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/모험가.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/character/Adventurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/몬스터.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/character/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/무기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/방어구.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/버프효과스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/BuffEffectThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/보스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/character/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/사운드스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/SoundThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/상점.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/스킬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/스테이지.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/아이템.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/오프닝스레드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/thread/OpeningThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/케릭터.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consolegame/특수무기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consolegame/item/SpecialWeapon.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,82 +61,71 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Q3cXT1nkvCp0wHENVylwtlDyMj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/consolegame/특수무기.java" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Advanced" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/consolegame/특수무기.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moonsoo\workspace\consolegame\src\consolegame\item" />
       <recent name="C:\Users\moonsoo\workspace\consolegame\src\consolegame" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consolegame.Main" />
+      <module name="consolegame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consolegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="consolegame" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="consolegame" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,10 +138,93 @@
       <option name="presentableId" value="Default" />
       <updated>1567002759188</updated>
       <workItem from="1567002774705" duration="2865000" />
+      <workItem from="1579245584461" duration="7546000" />
+      <workItem from="1579338533281" duration="39000" />
+      <workItem from="1579338621521" duration="20374000" />
+      <workItem from="1579496512988" duration="24737000" />
+      <workItem from="1579589124366" duration="16126000" />
+      <workItem from="1579696905380" duration="6549000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 2.0: refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.0: refactor code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579497455164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579497455164" />
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1579593969587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1579377609085" />
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579593969587" />
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579338565804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1579338565804" />
+    <state x="555" y="282" width="425" height="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579246532085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="282" width="425" height="260" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1579246532085" />
+    <state x="829" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579254390650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="829" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1579254390650" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579520181815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1579371572120" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1579520181815" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579345597532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1579345597532" />
+    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1579708443638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579708443638" />
+    <state width="1492" height="594" key="GridCell.Tab.0.bottom" timestamp="1579708296739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579708296739" />
+    <state width="1492" height="594" key="GridCell.Tab.0.center" timestamp="1579708296739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579708296739" />
+    <state width="1492" height="594" key="GridCell.Tab.0.left" timestamp="1579708296739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579708296739" />
+    <state width="1492" height="594" key="GridCell.Tab.0.right" timestamp="1579708296739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579708296739" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1579245657873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579245657873" />
+    <state x="439" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579696970751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579696970751" />
+    <state x="-2130" y="53" width="1515" height="735" maximized="true" key="dock-window-1" timestamp="1579496690121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-2130" y="53" width="1515" height="735" maximized="true" key="dock-window-1/0.0.1536.824/-1920.0.1280.680@0.0.1536.824" timestamp="1579363859786" />
+    <state x="-1914" y="7" width="1263" height="735" maximized="true" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1579496690121" />
+    <state x="476" y="35" key="refactoring.ChangeSignatureDialog" timestamp="1579516269919">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="476" y="35" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1579516269919" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579603721186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579603721186" />
   </component>
 </project>
